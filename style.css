@@ -115,9 +115,17 @@ body {
   .spaced {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
   }
   
+  .spacedtwo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
   section img {
     width: 100%;
     margin: 10px;
@@ -143,12 +151,17 @@ body {
       justify-content: space-between;
     }
   
-    .spacedout {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    .spaced{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-around;
     }
   
+.spacedtwo{
+  display:flex;
+  flex-direction:column;
+}
+
     .imgabout {
       display: flex;
       flex-direction: row;
